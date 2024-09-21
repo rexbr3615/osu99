@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini OSU!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="score">Pontuação: 0</div>
+    <button id="startButton">Iniciar Jogo</button>
+    <audio id="gameMusic" src="LID.mp3" loop></audio>
+    <div id="gameArea">
+        <div id="target"></div>
+        <div id="blueTarget" style="display: none; background-color: blue;"></div>
+        <div id="yellowTarget" style="display: none; background-color: yellow;"></div>
+    </div>
+
+    <div id="winMessage" style="display: none; color: white; font-size: 48px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <img src="CFPQ.jfif" alt="Vitória" style="width: 300px; margin-bottom: 20px;">
+        Você Venceu!
+        <a href="index.html"><button>Recomeçar</button></a>
+        <a href="osso.html"><button>OSSO</button></a>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
